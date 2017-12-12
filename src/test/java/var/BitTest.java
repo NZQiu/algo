@@ -1,4 +1,4 @@
-package bit;
+package var;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package bit;
+package var;
 
 public class Bit {
 
@@ -19,7 +19,7 @@ public class Bit {
 //    a^0 = a; a^1 = !a
     public static int swapBit(int x, int i, int j) {
         if ( ((x >> i) & 1) != ((x >> j) & 1)) { // if i != j
-            x ^= (1 << i) | (1 << j); // Reverse i and j bit: a^1 = !a: 0^1 = 1; 1^1 = 0;
+            x ^= (1 << i) | (1 << j); // Reverse i and j var: a^1 = !a: 0^1 = 1; 1^1 = 0;
         }
         return x;
     }
