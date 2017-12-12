@@ -34,7 +34,6 @@ public class MulStr {
             start++;
         }
 
-        if (start == p.length()) return "0";
         return p.substring(start, p.length());
     }
 
